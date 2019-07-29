@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/rpc.iml" filepath="$PROJECT_DIR$/rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-client/rpc-client.iml" filepath="$PROJECT_DIR$/rpc-client/rpc-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-common/rpc-common.iml" filepath="$PROJECT_DIR$/rpc-common/rpc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-registry/rpc-registry.iml" filepath="$PROJECT_DIR$/rpc-registry/rpc-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-registry-zookeeper/rpc-registry-zookeeper.iml" filepath="$PROJECT_DIR$/rpc-registry-zookeeper/rpc-registry-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-server/rpc-server.iml" filepath="$PROJECT_DIR$/rpc-server/rpc-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/tiny-rpc.iml" filepath="$PROJECT_DIR$/tiny-rpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tiny-rpc-client/tiny-rpc-client.iml" filepath="$PROJECT_DIR$/tiny-rpc-client/tiny-rpc-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tiny-rpc-common/tiny-rpc-common.iml" filepath="$PROJECT_DIR$/tiny-rpc-common/tiny-rpc-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tiny-rpc-registry/tiny-rpc-registry.iml" filepath="$PROJECT_DIR$/tiny-rpc-registry/tiny-rpc-registry.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tiny-rpc-server/tiny-rpc-server.iml" filepath="$PROJECT_DIR$/tiny-rpc-server/tiny-rpc-server.iml" />
     </modules>
   </component>
 </project>

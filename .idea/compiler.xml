@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tiny-rpc-client" />
-        <module name="tiny-rpc-common" />
-        <module name="tiny-rpc-registry" />
-        <module name="tiny-rpc-server" />
+        <processorPath useClasspath="true" />
+        <module name="rpc-client" />
+        <module name="rpc-common" />
+        <module name="rpc-registry" />
+        <module name="rpc-registry-zookeeper" />
+        <module name="rpc-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="example" target="1.8" />
       <module name="hello-api" target="1.8" />
+      <module name="rpc" target="1.7" />
+      <module name="rpc-client" target="1.7" />
+      <module name="rpc-common" target="1.7" />
+      <module name="rpc-registry" target="1.7" />
+      <module name="rpc-registry-zookeeper" target="1.7" />
+      <module name="rpc-server" target="1.7" />
       <module name="tiny-rpc" target="1.8" />
       <module name="tiny-rpc-client" target="1.8" />
       <module name="tiny-rpc-common" target="1.8" />
